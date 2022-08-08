@@ -1,0 +1,12 @@
+# Dirsearch started Thu Jan 20 21:21:58 2022 as: dirsearch.py -u http://10.32.186.187/api -e BurpSuiteLoader_v2021.5.jar burploader-old.jar burpsuite_pro_v2021.5.jar run.bat
+
+404   119B   http://10.32.186.187:80/api/system/
+404   125B   http://10.32.186.187:80/api/system/cache/
+301   169B   http://10.32.186.187:80/api/system    -> REDIRECTS TO: http://10.32.186.187/api/system/
+404   132B   http://10.32.186.187:80/api/system/cron/cron.txt
+404   128B   http://10.32.186.187:80/api/system/error.txt
+404   123B   http://10.32.186.187:80/api/system/log/
+404   153B   http://10.32.186.187:80/api/system/expressionengine/config/config.php
+404   127B   http://10.32.186.187:80/api/system/storage/
+404   124B   http://10.32.186.187:80/api/system/logs/
+404   155B   http://10.32.186.187:80/api/system/expressionengine/config/database.php

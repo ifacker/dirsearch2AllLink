@@ -1,0 +1,6 @@
+# Dirsearch started Wed Aug  3 10:13:44 2022 as: dirsearch.py -u http://sinopaper-cnppri.com:8080/editor/plugins/map/
+
+400     0B   http://sinopaper-cnppri.com:8080/editor/plugins/map/\..\..\..\..\..\..\..\..\..\etc\passwd
+400     0B   http://sinopaper-cnppri.com:8080/editor/plugins/map/a%5c.aspx
+200     2KB  http://sinopaper-cnppri.com:8080/editor/plugins/map/map.html
+200     5KB  http://sinopaper-cnppri.com:8080/editor/plugins/map/map.js

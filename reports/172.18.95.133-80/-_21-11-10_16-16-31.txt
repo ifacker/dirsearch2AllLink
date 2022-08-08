@@ -1,0 +1,15 @@
+# Dirsearch started Wed Nov 10 16:16:36 2021 as: dirsearch.py -u http://172.18.95.133:80/ -e CHANGELOG.md CONTRIBUTORS.md Dockerfile README.md __init__.py banner.txt db default.conf dirsearch.py lib logs reports requirements.txt setup.cfg setup.py static thirdparty
+
+400   166B   http://172.18.95.133:80/Trace.axd::$DATA
+301   178B   http://172.18.95.133:80/Upload    -> REDIRECTS TO: http://172.18.95.133/upload/
+400   166B   http://172.18.95.133:80/\..\..\..\..\..\..\..\..\..\etc\passwd
+403   564B   http://172.18.95.133:80/actuator/status
+403   564B   http://172.18.95.133:80/download/
+200    12B   http://172.18.95.133:80/hello
+200    26B   http://172.18.95.133:80/robots.txt
+200    26B   http://172.18.95.133:80/robots.txt.dist
+403   564B   http://172.18.95.133:80/status
+403   564B   http://172.18.95.133:80/status?full=true
+301   178B   http://172.18.95.133:80/upload    -> REDIRECTS TO: http://172.18.95.133/upload/
+403   564B   http://172.18.95.133:80/web-console/status?full=true
+400   166B   http://172.18.95.133:80/web.config::$DATA

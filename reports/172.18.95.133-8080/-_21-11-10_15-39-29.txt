@@ -1,0 +1,51 @@
+# Dirsearch started Wed Nov 10 15:39:49 2021 as: dirsearch.py -u http://172.18.95.133:8080/ -e CHANGELOG.md CONTRIBUTORS.md Dockerfile README.md __init__.py banner.txt db default.conf dirsearch.py lib logs reports requirements.txt setup.cfg setup.py static thirdparty
+
+200     0B   http://172.18.95.133:8080/.eslintrc
+301   178B   http://172.18.95.133:8080/Build    -> REDIRECTS TO: http://172.18.95.133:8080/Build/
+403   564B   http://172.18.95.133:8080/Config/
+403   564B   http://172.18.95.133:8080/Logs/
+400   166B   http://172.18.95.133:8080/Trace.axd::$DATA
+400   166B   http://172.18.95.133:8080/\..\..\..\..\..\..\..\..\..\etc\passwd
+302     0B   http://172.18.95.133:8080/admin/?/login    -> REDIRECTS TO: /login?refer=%2Fadmin%2F%3F%2Flogin
+302     0B   http://172.18.95.133:8080/admin/    -> REDIRECTS TO: /login?refer=%2Fadmin%2F
+302     0B   http://172.18.95.133:8080/admin/index    -> REDIRECTS TO: /login?refer=%2Fadmin%2Findex
+301   178B   http://172.18.95.133:8080/application    -> REDIRECTS TO: http://172.18.95.133:8080/application/
+403   564B   http://172.18.95.133:8080/application/
+301   178B   http://172.18.95.133:8080/build    -> REDIRECTS TO: http://172.18.95.133:8080/build/
+403   564B   http://172.18.95.133:8080/build/
+403   564B   http://172.18.95.133:8080/config
+403   564B   http://172.18.95.133:8080/config/
+403   564B   http://172.18.95.133:8080/data
+403   564B   http://172.18.95.133:8080/data/
+302     0B   http://172.18.95.133:8080/downloadFile.php    -> REDIRECTS TO: /login?refer=
+302     0B   http://172.18.95.133:8080/downloads/dom.php    -> REDIRECTS TO: /login?refer=
+200    34B   http://172.18.95.133:8080/error/
+200    34B   http://172.18.95.133:8080/error
+403   564B   http://172.18.95.133:8080/ext/
+200   108KB  http://172.18.95.133:8080/favicon.ico
+500   846B   http://172.18.95.133:8080/health
+302     0B   http://172.18.95.133:8080/index    -> REDIRECTS TO: /login?refer=%2Findex
+302     0B   http://172.18.95.133:8080/index.php    -> REDIRECTS TO: /login?refer=%2Findex.php
+200    46KB  http://172.18.95.133:8080/index.php/login/
+200    46KB  http://172.18.95.133:8080/login
+200    46KB  http://172.18.95.133:8080/login/
+200    69B   http://172.18.95.133:8080/login/login
+200    46KB  http://172.18.95.133:8080/login/index
+403   564B   http://172.18.95.133:8080/logs
+403   564B   http://172.18.95.133:8080/logs/
+301   178B   http://172.18.95.133:8080/modules    -> REDIRECTS TO: http://172.18.95.133:8080/modules/
+403   564B   http://172.18.95.133:8080/modules/
+302     0B   http://172.18.95.133:8080/oauth    -> REDIRECTS TO: /login?refer=%2Foauth
+200     0B   http://172.18.95.133:8080/package-lock.json
+500   846B   http://172.18.95.133:8080/report
+200    26B   http://172.18.95.133:8080/robots.txt
+302     0B   http://172.18.95.133:8080/security/    -> REDIRECTS TO: /login?refer=%2Fsecurity%2F
+302     0B   http://172.18.95.133:8080/security    -> REDIRECTS TO: /login?refer=%2Fsecurity
+500   846B   http://172.18.95.133:8080/software
+403   564B   http://172.18.95.133:8080/source/
+301   178B   http://172.18.95.133:8080/source    -> REDIRECTS TO: http://172.18.95.133:8080/source/
+302     0B   http://172.18.95.133:8080/tools    -> REDIRECTS TO: /login?refer=%2Ftools
+302     0B   http://172.18.95.133:8080/tools/    -> REDIRECTS TO: /login?refer=%2Ftools%2F
+500   846B   http://172.18.95.133:8080/user
+400   166B   http://172.18.95.133:8080/web.config::$DATA
+200     0B   http://172.18.95.133:8080/yarn.lock

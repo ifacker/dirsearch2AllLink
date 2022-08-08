@@ -1,0 +1,19 @@
+# Dirsearch started Thu Jul 28 14:56:36 2022 as: dirsearch.py -u https://api.ccteg.cn/
+
+403   312B   https://api.ccteg.cn:443/%2e%2e//google.com
+301   147B   https://api.ccteg.cn:443/js    -> REDIRECTS TO: https://api.ccteg.cn/js/
+301   151B   https://api.ccteg.cn:443/Upload    -> REDIRECTS TO: https://api.ccteg.cn/Upload/
+403   312B   https://api.ccteg.cn:443/\..\..\..\..\..\..\..\..\..\etc\passwd
+301   153B   https://api.ccteg.cn:443/contents    -> REDIRECTS TO: https://api.ccteg.cn/contents/
+301   148B   https://api.ccteg.cn:443/css    -> REDIRECTS TO: https://api.ccteg.cn/css/
+403    36B   https://api.ccteg.cn:443/images/
+301   151B   https://api.ccteg.cn:443/images    -> REDIRECTS TO: https://api.ccteg.cn/images/
+301   152B   https://api.ccteg.cn:443/include    -> REDIRECTS TO: https://api.ccteg.cn/include/
+403    36B   https://api.ccteg.cn:443/include/
+200   177KB  https://api.ccteg.cn:443/index.html
+403    36B   https://api.ccteg.cn:443/js/
+200    45KB  https://api.ccteg.cn:443/search.html
+301   153B   https://api.ccteg.cn:443/template    -> REDIRECTS TO: https://api.ccteg.cn/template/
+403    36B   https://api.ccteg.cn:443/template/
+301   151B   https://api.ccteg.cn:443/upload    -> REDIRECTS TO: https://api.ccteg.cn/upload/
+403    36B   https://api.ccteg.cn:443/upload/

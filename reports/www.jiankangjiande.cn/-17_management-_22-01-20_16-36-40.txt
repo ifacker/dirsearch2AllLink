@@ -1,0 +1,10 @@
+# Dirsearch started Thu Jan 20 16:36:56 2022 as: dirsearch.py -u https://www.jiankangjiande.cn/17_management/ -e BurpSuiteLoader_v2021.5.jar burploader-old.jar burpsuite_pro_v2021.5.jar run.bat
+
+200   390B   https://www.jiankangjiande.cn:443/17_management/config.js
+301   162B   https://www.jiankangjiande.cn:443/17_management/css    -> REDIRECTS TO: https://www.jiankangjiande.cn:9000/17_management/css/
+200     4KB  https://www.jiankangjiande.cn:443/17_management/favicon.ico
+301   162B   https://www.jiankangjiande.cn:443/17_management/fonts    -> REDIRECTS TO: https://www.jiankangjiande.cn:9000/17_management/fonts/
+301   162B   https://www.jiankangjiande.cn:443/17_management/img    -> REDIRECTS TO: https://www.jiankangjiande.cn:9000/17_management/img/
+200     8KB  https://www.jiankangjiande.cn:443/17_management/index.html
+301   162B   https://www.jiankangjiande.cn:443/17_management/js    -> REDIRECTS TO: https://www.jiankangjiande.cn:9000/17_management/js/
+403   548B   https://www.jiankangjiande.cn:443/17_management/js/

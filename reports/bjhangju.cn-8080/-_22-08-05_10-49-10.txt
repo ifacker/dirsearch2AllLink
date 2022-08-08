@@ -1,0 +1,6 @@
+# Dirsearch started Fri Aug  5 10:49:27 2022 as: dirsearch.py -u http://bjhangju.cn:8080/
+
+400   795B   http://bjhangju.cn:8080/\..\..\..\..\..\..\..\..\..\etc\passwd
+400   795B   http://bjhangju.cn:8080/a%5c.aspx
+200    21KB  http://bjhangju.cn:8080/favicon.ico
+200    11KB  http://bjhangju.cn:8080/index.jsp

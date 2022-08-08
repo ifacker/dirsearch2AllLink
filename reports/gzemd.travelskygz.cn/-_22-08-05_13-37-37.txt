@@ -1,0 +1,20 @@
+# Dirsearch started Fri Aug  5 13:37:41 2022 as: dirsearch.py -u https://gzemd.travelskygz.cn/
+
+403   199B   https://gzemd.travelskygz.cn:443/.htaccess.orig
+403   199B   https://gzemd.travelskygz.cn:443/.htaccess.bak1
+403   199B   https://gzemd.travelskygz.cn:443/.htaccess.sample
+403   199B   https://gzemd.travelskygz.cn:443/.htaccess.save
+403   199B   https://gzemd.travelskygz.cn:443/.htaccess_orig
+403   199B   https://gzemd.travelskygz.cn:443/.htaccess_extra
+403   199B   https://gzemd.travelskygz.cn:443/.htaccess_sc
+403   199B   https://gzemd.travelskygz.cn:443/.htaccessBAK
+403   199B   https://gzemd.travelskygz.cn:443/.htaccessOLD
+403   199B   https://gzemd.travelskygz.cn:443/.htaccessOLD2
+403   199B   https://gzemd.travelskygz.cn:443/.htm
+403   199B   https://gzemd.travelskygz.cn:443/.html
+403   199B   https://gzemd.travelskygz.cn:443/.httr-oauth
+403   199B   https://gzemd.travelskygz.cn:443/.htpasswd_test
+403   199B   https://gzemd.travelskygz.cn:443/.ht_wsr.txt
+403   199B   https://gzemd.travelskygz.cn:443/.htpasswds
+200     1KB  https://gzemd.travelskygz.cn:443/cgi-bin/test-cgi
+200     0B   https://gzemd.travelskygz.cn:443/index.html

@@ -1,0 +1,17 @@
+# Dirsearch started Mon Aug  8 14:55:30 2022 as: dirsearch.py -u http://115.236.86.197/
+
+301   178B   http://115.236.86.197:80/js    -> REDIRECTS TO: http://115.236.86.197:8090/js/
+403   564B   http://115.236.86.197:80/.idea/
+200     4B   http://115.236.86.197:80/.idea/.name
+200   200B   http://115.236.86.197:80/.idea/encodings.xml
+301   178B   http://115.236.86.197:80/.idea/dictionaries    -> REDIRECTS TO: http://115.236.86.197:8090/.idea/dictionaries/
+200     2KB  http://115.236.86.197:80/.idea/misc.xml
+200   260B   http://115.236.86.197:80/.idea/modules.xml
+301   178B   http://115.236.86.197:80/.idea    -> REDIRECTS TO: http://115.236.86.197:8090/.idea/
+200   143B   http://115.236.86.197:80/.idea/scopes/scope_settings.xml
+200   167B   http://115.236.86.197:80/.idea/vcs.xml
+200    32KB  http://115.236.86.197:80/.idea/workspace.xml
+200     3B   http://115.236.86.197:80/.svn/entries
+301   178B   http://115.236.86.197:80/.svn    -> REDIRECTS TO: http://115.236.86.197:8090/.svn/
+403   564B   http://115.236.86.197:80/.svn/
+200   840KB  http://115.236.86.197:80/.svn/wc.db

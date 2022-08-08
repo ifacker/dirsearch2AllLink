@@ -1,0 +1,39 @@
+# Dirsearch started Mon Jul 25 16:22:23 2022 as: dirsearch.py -u http://47.240.75.39/ -e Applications Desktop Documents Downloads Library Movies Music Pictures Postman Public Sites Virtual Machines.localized app configfile files fsdownload go java_error_in_idea_10443.log java_error_in_idea_11159.log java_error_in_idea_11342.log nuclei-templates temp tmp v2rayx_backup_25-07-2022 12:56.json
+
+403     2KB  http://47.240.75.39:80/%3f/
+403     2KB  http://47.240.75.39:80/%C0%AE%C0%AE%C0%AF
+403     2KB  http://47.240.75.39:80/%ff
+403     2KB  http://47.240.75.39:80/.ht_wsr.txt
+403     2KB  http://47.240.75.39:80/.htaccess.bak1
+403     2KB  http://47.240.75.39:80/.htaccess.sample
+403     2KB  http://47.240.75.39:80/.htaccess_extra
+403     2KB  http://47.240.75.39:80/.htaccess.save
+403     2KB  http://47.240.75.39:80/.htaccess_orig
+403     2KB  http://47.240.75.39:80/.htaccess_sc
+403     2KB  http://47.240.75.39:80/.htaccessOLD
+403     2KB  http://47.240.75.39:80/.htm
+403     2KB  http://47.240.75.39:80/.htaccessOLD2
+403     2KB  http://47.240.75.39:80/.htpasswds
+403     2KB  http://47.240.75.39:80/.html
+403     2KB  http://47.240.75.39:80/.httr-oauth
+403     2KB  http://47.240.75.39:80/.htpasswd_test
+403     2KB  http://47.240.75.39:80/.htaccessBAK
+403     2KB  http://47.240.75.39:80/.htaccess.orig
+403     2KB  http://47.240.75.39:80/Trace.axd::$DATA
+403     2KB  http://47.240.75.39:80/cgi-bin/
+500     3KB  http://47.240.75.39:80/cgi-bin/printenv.pl
+301   234B   http://47.240.75.39:80/error    -> REDIRECTS TO: http://47.240.75.39/error/
+200     2KB  http://47.240.75.39:80/error/
+200     4KB  http://47.240.75.39:80/favicon.ico
+301   232B   http://47.240.75.39:80/img    -> REDIRECTS TO: http://47.240.75.39/img/
+200     7KB  http://47.240.75.39:80/index.php
+200     7KB  http://47.240.75.39:80/index.php/login/
+403     2KB  http://47.240.75.39:80/js/
+301   231B   http://47.240.75.39:80/js    -> REDIRECTS TO: http://47.240.75.39/js/
+301   232B   http://47.240.75.39:80/php    -> REDIRECTS TO: http://47.240.75.39/php/
+403     2KB  http://47.240.75.39:80/php/
+403     2KB  http://47.240.75.39:80/server-status
+403     2KB  http://47.240.75.39:80/server-status/
+403     2KB  http://47.240.75.39:80/server-info
+301   234B   http://47.240.75.39:80/style    -> REDIRECTS TO: http://47.240.75.39/style/
+403     2KB  http://47.240.75.39:80/web.config::$DATA

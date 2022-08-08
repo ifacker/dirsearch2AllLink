@@ -1,0 +1,22 @@
+# Dirsearch started Wed Aug  3 14:59:20 2022 as: dirsearch.py -u http://123.57.154.28:8080/
+
+302     0B   http://123.57.154.28:8080/WEB-INF    -> REDIRECTS TO: http://123.57.154.28:8080/WEB-INF/
+400     0B   http://123.57.154.28:8080/\..\..\..\..\..\..\..\..\..\etc\passwd
+400     0B   http://123.57.154.28:8080/a%5c.aspx
+200     3KB  http://123.57.154.28:8080/build.xml
+302     0B   http://123.57.154.28:8080/docs    -> REDIRECTS TO: http://123.57.154.28:8080/docs/
+200    13KB  http://123.57.154.28:8080/docs/
+200     1KB  http://123.57.154.28:8080/examples/
+200     1KB  http://123.57.154.28:8080/examples/jsp/snp/snoop.jsp
+302     0B   http://123.57.154.28:8080/examples    -> REDIRECTS TO: http://123.57.154.28:8080/examples/
+200   637B   http://123.57.154.28:8080/examples/servlets/servlet/CookieExample
+200     5KB  http://123.57.154.28:8080/examples/servlets/index.html
+200   949B   http://123.57.154.28:8080/examples/servlets/servlet/RequestHeaderExample
+200    21KB  http://123.57.154.28:8080/favicon.ico
+401     2KB  http://123.57.154.28:8080/host-manager/html
+200     8KB  http://123.57.154.28:8080/index.jsp
+200     7KB  http://123.57.154.28:8080/index.html
+302     0B   http://123.57.154.28:8080/manager    -> REDIRECTS TO: http://123.57.154.28:8080/manager/
+401     3KB  http://123.57.154.28:8080/manager/html
+401     3KB  http://123.57.154.28:8080/manager/status/all
+401     3KB  http://123.57.154.28:8080/manager/html/

@@ -1,0 +1,8 @@
+# Dirsearch started Wed Nov 10 15:35:38 2021 as: dirsearch.py -u http://172.18.95.133:8000/ -e CHANGELOG.md CONTRIBUTORS.md Dockerfile README.md __init__.py banner.txt db default.conf dirsearch.py lib logs reports requirements.txt setup.cfg setup.py static thirdparty
+
+301     0B   http://172.18.95.133:8000/%2e%2e//google.com    -> REDIRECTS TO: /google.com
+301     0B   http://172.18.95.133:8000/Citrix//AccessPlatform/auth/clientscripts/cookies.js    -> REDIRECTS TO: /Citrix/AccessPlatform/auth/clientscripts/cookies.js
+301     0B   http://172.18.95.133:8000/engine/classes/swfupload//swfupload.swf    -> REDIRECTS TO: /engine/classes/swfupload/swfupload.swf
+301     0B   http://172.18.95.133:8000/engine/classes/swfupload//swfupload_f9.swf    -> REDIRECTS TO: /engine/classes/swfupload/swfupload_f9.swf
+301     0B   http://172.18.95.133:8000/extjs/resources//charts.swf    -> REDIRECTS TO: /extjs/resources/charts.swf
+301     0B   http://172.18.95.133:8000/html/js/misc/swfupload//swfupload.swf    -> REDIRECTS TO: /html/js/misc/swfupload/swfupload.swf

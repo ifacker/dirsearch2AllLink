@@ -1,0 +1,11 @@
+# Dirsearch started Thu Aug  4 13:33:40 2022 as: dirsearch.py -u https://www.sh-citic.com/
+
+301   169B   https://www.sh-citic.com:443/js    -> REDIRECTS TO: https://www.sh-citic.com/js/
+301   169B   https://www.sh-citic.com:443/css    -> REDIRECTS TO: https://www.sh-citic.com/css/
+200     1KB  https://www.sh-citic.com:443/favicon.ico
+301   169B   https://www.sh-citic.com:443/fonts    -> REDIRECTS TO: https://www.sh-citic.com/fonts/
+301   169B   https://www.sh-citic.com:443/img    -> REDIRECTS TO: https://www.sh-citic.com/img/
+200     7KB  https://www.sh-citic.com:443/index.html
+200     7KB  https://www.sh-citic.com:443/js/
+200   445B   https://www.sh-citic.com:443/manifest.json
+200    26B   https://www.sh-citic.com:443/robots.txt

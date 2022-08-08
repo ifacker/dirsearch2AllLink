@@ -1,0 +1,23 @@
+# Dirsearch started Mon Jul 25 12:22:43 2022 as: dirsearch.py -u https://gp.travelsky.cn/ -e 360tianqingRCE
+
+403   220B   https://gp.travelsky.cn:443/.ht_wsr.txt
+403   223B   https://gp.travelsky.cn:443/.htaccess.bak1
+403   223B   https://gp.travelsky.cn:443/.htaccess_orig
+403   225B   https://gp.travelsky.cn:443/.htaccess.sample
+403   223B   https://gp.travelsky.cn:443/.htaccess.orig
+403   221B   https://gp.travelsky.cn:443/.htaccess_sc
+403   224B   https://gp.travelsky.cn:443/.htaccess_extra
+403   223B   https://gp.travelsky.cn:443/.htaccess.save
+403   219B   https://gp.travelsky.cn:443/.htpasswds
+403   220B   https://gp.travelsky.cn:443/.httr-oauth
+403   223B   https://gp.travelsky.cn:443/.htpasswd_test
+403   214B   https://gp.travelsky.cn:443/.html
+403   213B   https://gp.travelsky.cn:443/.htm
+403   221B   https://gp.travelsky.cn:443/.htaccessOLD
+403   221B   https://gp.travelsky.cn:443/.htaccessBAK
+403   222B   https://gp.travelsky.cn:443/.htaccessOLD2
+200     1KB  https://gp.travelsky.cn:443/cgi-bin/test-cgi
+200   322B   https://gp.travelsky.cn:443/index.html
+403   222B   https://gp.travelsky.cn:443/server-status
+403   223B   https://gp.travelsky.cn:443/server-status/
+403   220B   https://gp.travelsky.cn:443/server-info

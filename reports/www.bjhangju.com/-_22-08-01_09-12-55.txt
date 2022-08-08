@@ -1,0 +1,14 @@
+# Dirsearch started Mon Aug  1 09:12:56 2022 as: dirsearch.py -u http://www.bjhangju.com/ -e FAQ.md README.md captcha-killer-modified-jdk14.jar codereg.py pom.xml src
+
+200    11KB  http://www.bjhangju.com:80/..;/
+400     2KB  http://www.bjhangju.com:80/\..\..\..\..\..\..\..\..\..\etc\passwd
+400     2KB  http://www.bjhangju.com:80/a%5c.aspx
+200     5KB  http://www.bjhangju.com:80/admin.html
+302     0B   http://www.bjhangju.com:80/config    -> REDIRECTS TO: http://www.bjhangju.com:8080/plum/config/
+302     0B   http://www.bjhangju.com:80/css    -> REDIRECTS TO: http://www.bjhangju.com:8080/plum/css/
+200    66KB  http://www.bjhangju.com:80/favicon.ico
+302     0B   http://www.bjhangju.com:80/fonts    -> REDIRECTS TO: http://www.bjhangju.com:8080/plum/fonts/
+302     0B   http://www.bjhangju.com:80/images    -> REDIRECTS TO: http://www.bjhangju.com:8080/plum/images/
+200     3KB  http://www.bjhangju.com:80/index.html
+302     0B   http://www.bjhangju.com:80/js    -> REDIRECTS TO: http://www.bjhangju.com:8080/plum/js/
+302     0B   http://www.bjhangju.com:80/lib    -> REDIRECTS TO: http://www.bjhangju.com:8080/plum/lib/

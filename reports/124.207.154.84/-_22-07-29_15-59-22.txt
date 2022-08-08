@@ -1,0 +1,3 @@
+# Dirsearch started Fri Jul 29 15:59:23 2022 as: dirsearch.py -u http://124.207.154.84/
+
+301   184B   http://124.207.154.84:80/js    -> REDIRECTS TO: http://124.207.154.84/js/

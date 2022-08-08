@@ -1,0 +1,16 @@
+# Dirsearch started Sat Oct  9 17:08:48 2021 as: dirsearch.py -u http://10.32.36.238/#/ -e CHANGELOG.md CONTRIBUTORS.md Dockerfile README.md __init__.py banner.txt db default.conf dirsearch.py lib logs reports requirements.txt setup.cfg setup.py static thirdparty
+
+301   169B   http://10.32.36.238:80/api    -> REDIRECTS TO: http://10.32.36.238/api/
+401     0B   http://10.32.36.238:80/api/error_log
+401     0B   http://10.32.36.238:80/api/2/explore/
+401     0B   http://10.32.36.238:80/api/jsonws
+401     0B   http://10.32.36.238:80/api/2/issue/createmeta
+401     0B   http://10.32.36.238:80/api/jsonws/invoke
+401     0B   http://10.32.36.238:80/api/swagger
+401     0B   http://10.32.36.238:80/api/login.json
+401     0B   http://10.32.36.238:80/api/package_search/v4/documentation
+401     0B   http://10.32.36.238:80/api/swagger.yml
+401     0B   http://10.32.36.238:80/api/v1
+401     0B   http://10.32.36.238:80/api/v3
+200     2KB  http://10.32.36.238:80/index.html
+301   169B   http://10.32.36.238:80/static    -> REDIRECTS TO: http://10.32.36.238/static/

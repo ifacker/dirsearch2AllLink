@@ -1,0 +1,54 @@
+# Dirsearch started Sun May 29 13:48:41 2022 as: dirsearch.py -u http://zjtzwater.com/
+
+200    28KB  http://zjtzwater.com:80/404.html
+301   162B   http://zjtzwater.com:80/ADMIN    -> REDIRECTS TO: http://zjtzwater.com/ADMIN/
+301   162B   http://zjtzwater.com:80/About    -> REDIRECTS TO: http://zjtzwater.com/About/
+301   162B   http://zjtzwater.com:80/Admin    -> REDIRECTS TO: http://zjtzwater.com/Admin/
+403   548B   http://zjtzwater.com:80/Config/
+403   548B   http://zjtzwater.com:80/Public/
+301   162B   http://zjtzwater.com:80/Search    -> REDIRECTS TO: http://zjtzwater.com/Search/
+400   150B   http://zjtzwater.com:80/Trace.axd::$DATA
+301   162B   http://zjtzwater.com:80/Upload    -> REDIRECTS TO: http://zjtzwater.com/Upload/
+400   150B   http://zjtzwater.com:80/\..\..\..\..\..\..\..\..\..\etc\passwd
+301   162B   http://zjtzwater.com:80/about    -> REDIRECTS TO: http://zjtzwater.com/about/
+301   162B   http://zjtzwater.com:80/admin    -> REDIRECTS TO: http://zjtzwater.com/admin/
+301   162B   http://zjtzwater.com:80/admin.    -> REDIRECTS TO: http://zjtzwater.com/admin/
+403   548B   http://zjtzwater.com:80/admin/
+403   548B   http://zjtzwater.com:80/admin/?/login
+301   162B   http://zjtzwater.com:80/app    -> REDIRECTS TO: http://zjtzwater.com/app/
+200    42B   http://zjtzwater.com:80/app/
+403   548B   http://zjtzwater.com:80/aspnet_client/
+301   162B   http://zjtzwater.com:80/aspnet_client    -> REDIRECTS TO: http://zjtzwater.com/aspnet_client/
+301   162B   http://zjtzwater.com:80/cache    -> REDIRECTS TO: http://zjtzwater.com/cache/
+403   548B   http://zjtzwater.com:80/cache/
+301   162B   http://zjtzwater.com:80/config    -> REDIRECTS TO: http://zjtzwater.com/config/
+403   548B   http://zjtzwater.com:80/config/
+301   162B   http://zjtzwater.com:80/download    -> REDIRECTS TO: http://zjtzwater.com/download/
+200    29KB  http://zjtzwater.com:80/download/
+200     4KB  http://zjtzwater.com:80/favicon.ico
+301   162B   http://zjtzwater.com:80/feedback    -> REDIRECTS TO: http://zjtzwater.com/feedback/
+301   162B   http://zjtzwater.com:80/img    -> REDIRECTS TO: http://zjtzwater.com/img/
+403   548B   http://zjtzwater.com:80/include/
+301   162B   http://zjtzwater.com:80/include    -> REDIRECTS TO: http://zjtzwater.com/include/
+200    41KB  http://zjtzwater.com:80/index.php
+200    41KB  http://zjtzwater.com:80/index.php/login/
+301   162B   http://zjtzwater.com:80/member    -> REDIRECTS TO: http://zjtzwater.com/member/
+200   116B   http://zjtzwater.com:80/member/
+200    30KB  http://zjtzwater.com:80/member/login.php
+301   162B   http://zjtzwater.com:80/news    -> REDIRECTS TO: http://zjtzwater.com/news/
+301   162B   http://zjtzwater.com:80/online    -> REDIRECTS TO: http://zjtzwater.com/online/
+301   162B   http://zjtzwater.com:80/product    -> REDIRECTS TO: http://zjtzwater.com/product/
+301   162B   http://zjtzwater.com:80/public    -> REDIRECTS TO: http://zjtzwater.com/public/
+403   548B   http://zjtzwater.com:80/public/
+301   162B   http://zjtzwater.com:80/public..    -> REDIRECTS TO: http://zjtzwater.com/public/
+200    42B   http://zjtzwater.com:80/robots.txt
+301   162B   http://zjtzwater.com:80/search    -> REDIRECTS TO: http://zjtzwater.com/search/
+500   572B   http://zjtzwater.com:80/servlet/%C0%AE%C0%AE%C0%AF
+301   162B   http://zjtzwater.com:80/sitemap    -> REDIRECTS TO: http://zjtzwater.com/sitemap/
+200    62KB  http://zjtzwater.com:80/sitemap.xml
+301   162B   http://zjtzwater.com:80/tags    -> REDIRECTS TO: http://zjtzwater.com/tags/
+403   548B   http://zjtzwater.com:80/templates/
+301   162B   http://zjtzwater.com:80/templates    -> REDIRECTS TO: http://zjtzwater.com/templates/
+403   548B   http://zjtzwater.com:80/upload/
+301   162B   http://zjtzwater.com:80/upload    -> REDIRECTS TO: http://zjtzwater.com/upload/
+400   150B   http://zjtzwater.com:80/web.config::$DATA

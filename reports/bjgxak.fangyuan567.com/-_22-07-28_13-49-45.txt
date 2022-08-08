@@ -1,0 +1,21 @@
+# Dirsearch started Thu Jul 28 13:50:06 2022 as: dirsearch.py -u http://bjgxak.fangyuan567.com/
+
+200   206B   http://bjgxak.fangyuan567.com:80/404.html
+200    44KB  http://bjgxak.fangyuan567.com:80/404.php
+301   178B   http://bjgxak.fangyuan567.com:80/buy    -> REDIRECTS TO: http://bjgxak.fangyuan567.com/buy/
+200     0B   http://bjgxak.fangyuan567.com:80/config.inc.php
+301   178B   http://bjgxak.fangyuan567.com:80/contact    -> REDIRECTS TO: http://bjgxak.fangyuan567.com/contact/
+302     0B   http://bjgxak.fangyuan567.com:80/home.php    -> REDIRECTS TO: http://www.fangyuan567.com/company/
+301   178B   http://bjgxak.fangyuan567.com:80/homepage    -> REDIRECTS TO: http://bjgxak.fangyuan567.com/homepage/
+301   178B   http://bjgxak.fangyuan567.com:80/image    -> REDIRECTS TO: http://bjgxak.fangyuan567.com/image/
+200    13KB  http://bjgxak.fangyuan567.com:80/index.php
+200   355KB  http://bjgxak.fangyuan567.com:80/favicon.ico
+301   178B   http://bjgxak.fangyuan567.com:80/info    -> REDIRECTS TO: http://bjgxak.fangyuan567.com/info/
+301   178B   http://bjgxak.fangyuan567.com:80/link    -> REDIRECTS TO: http://bjgxak.fangyuan567.com/link/
+301   178B   http://bjgxak.fangyuan567.com:80/news    -> REDIRECTS TO: http://bjgxak.fangyuan567.com/news/
+200    43KB  http://bjgxak.fangyuan567.com:80/news.php
+301   178B   http://bjgxak.fangyuan567.com:80/photo    -> REDIRECTS TO: http://bjgxak.fangyuan567.com/photo/
+200    50B   http://bjgxak.fangyuan567.com:80/robots.txt
+200    51KB  http://bjgxak.fangyuan567.com:80/search.php
+301   178B   http://bjgxak.fangyuan567.com:80/skin    -> REDIRECTS TO: http://bjgxak.fangyuan567.com/skin/
+301   178B   http://bjgxak.fangyuan567.com:80/video    -> REDIRECTS TO: http://bjgxak.fangyuan567.com/video/

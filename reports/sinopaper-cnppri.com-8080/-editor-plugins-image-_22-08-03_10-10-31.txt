@@ -1,0 +1,6 @@
+# Dirsearch started Wed Aug  3 10:10:39 2022 as: dirsearch.py -u http://sinopaper-cnppri.com:8080/editor/plugins/image/
+
+400     0B   http://sinopaper-cnppri.com:8080/editor/plugins/image/\..\..\..\..\..\..\..\..\..\etc\passwd
+400     0B   http://sinopaper-cnppri.com:8080/editor/plugins/image/a%5c.aspx
+302     0B   http://sinopaper-cnppri.com:8080/editor/plugins/image/images    -> REDIRECTS TO: http://sinopaper-cnppri.com:8080/editor/plugins/image/images/
+200    11KB  http://sinopaper-cnppri.com:8080/editor/plugins/image/image.js

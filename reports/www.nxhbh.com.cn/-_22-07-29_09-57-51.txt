@@ -1,0 +1,4 @@
+# Dirsearch started Fri Jul 29 09:58:21 2022 as: dirsearch.py -u http://www.nxhbh.com.cn/
+
+200    44KB  http://www.nxhbh.com.cn:80/index.htm
+301   162B   http://www.nxhbh.com.cn:80/static    -> REDIRECTS TO: http://www.nxhbh.com.cn/static/

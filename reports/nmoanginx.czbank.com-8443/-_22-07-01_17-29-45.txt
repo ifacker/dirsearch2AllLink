@@ -1,0 +1,6 @@
+# Dirsearch started Fri Jul  1 17:30:06 2022 as: dirsearch.py -u https://nmoanginx.czbank.com:8443/
+
+301   162B   https://nmoanginx.czbank.com:8443/favicon.ico    -> REDIRECTS TO: https://nmoanginx.czbank.com:8443/favicon.ico/
+301   162B   https://nmoanginx.czbank.com:8443/mobile    -> REDIRECTS TO: https://nmoanginx.czbank.com:8443/mobile/
+301   162B   https://nmoanginx.czbank.com:8443/portal    -> REDIRECTS TO: https://nmoanginx.czbank.com:8443/portal/
+301   162B   https://nmoanginx.czbank.com:8443/sql    -> REDIRECTS TO: https://nmoanginx.czbank.com:8443/sql/

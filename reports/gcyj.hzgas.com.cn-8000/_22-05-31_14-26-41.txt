@@ -1,0 +1,22 @@
+# Dirsearch started Tue May 31 14:26:42 2022 as: dirsearch.py -u https://gcyj.hzgas.com.cn:8000
+
+405   133B   https://gcyj.hzgas.com.cn:8000/api/prod/product/match
+405   137B   https://gcyj.hzgas.com.cn:8000/api/userAPP/addUserChannel
+404     0B   https://gcyj.hzgas.com.cn:8000/jsp.txt
+404     0B   https://gcyj.hzgas.com.cn:8000/php.txt
+404     0B   https://gcyj.hzgas.com.cn:8000/html.txt
+404     0B   https://gcyj.hzgas.com.cn:8000/aspx.txt
+404     0B   https://gcyj.hzgas.com.cn:8000/js.txt
+404     2B   https://gcyj.hzgas.com.cn:8000/.angular-cli.json
+404     2B   https://gcyj.hzgas.com.cn:8000/.azure/accessTokens.json
+404     2B   https://gcyj.hzgas.com.cn:8000/.babel.json
+404     2B   https://gcyj.hzgas.com.cn:8000/.bower.json
+404     2B   https://gcyj.hzgas.com.cn:8000/.brackets.json
+404     2B   https://gcyj.hzgas.com.cn:8000/.buildkite/pipeline.json
+404     0B   https://gcyj.hzgas.com.cn:8000/.cc-ban.txt
+404     2B   https://gcyj.hzgas.com.cn:8000/.codeclimate.json
+404     2B   https://gcyj.hzgas.com.cn:8000/.composer/auth.json
+404     2B   https://gcyj.hzgas.com.cn:8000/.config/gatsby/config.json
+404     2B   https://gcyj.hzgas.com.cn:8000/.config/gatsby/events.json
+404     2B   https://gcyj.hzgas.com.cn:8000/.config/configstore/snyk.json
+404     2B   https://gcyj.hzgas.com.cn:8000/.config/yarn/global/package.json

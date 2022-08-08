@@ -1,0 +1,127 @@
+# Dirsearch started Mon Jul 25 19:45:22 2022 as: dirsearch.py -u http://47.104.84.66:8031/ -e Applications Desktop Documents Downloads Library Movies Music Pictures Postman Public Sites Virtual Machines.localized app configfile files fsdownload go java_error_in_idea_10443.log java_error_in_idea_11159.log java_error_in_idea_11342.log nuclei-templates temp tmp v2rayx_backup_25-07-2022 12:56.json
+
+403   263B   http://47.104.84.66:8031/!.htaccess
+200    12KB  http://47.104.84.66:8031/%3f/
+403   263B   http://47.104.84.66:8031/.git/branches/
+403   263B   http://47.104.84.66:8031/.git/config
+403   263B   http://47.104.84.66:8031/.git/FETCH_HEAD
+403   263B   http://47.104.84.66:8031/.git/hooks/commit-msg
+403   263B   http://47.104.84.66:8031/.git/hooks/pre-push
+403   263B   http://47.104.84.66:8031/.git/
+403   263B   http://47.104.84.66:8031/.git/hooks/pre-receive
+403   263B   http://47.104.84.66:8031/.git/index
+403   263B   http://47.104.84.66:8031/.git/info/refs
+403   263B   http://47.104.84.66:8031/.git/hooks/post-update
+403   263B   http://47.104.84.66:8031/.git/logs/head
+403   263B   http://47.104.84.66:8031/.git/hooks/pre-rebase
+403   263B   http://47.104.84.66:8031/.git/hooks/update
+403   263B   http://47.104.84.66:8031/.git/logs/refs/heads/master
+403   263B   http://47.104.84.66:8031/.git/logs/refs/remotes
+403   263B   http://47.104.84.66:8031/.git/info/attributes
+403   263B   http://47.104.84.66:8031/.git/COMMIT_EDITMSG
+403   263B   http://47.104.84.66:8031/.git/refs/heads
+403   263B   http://47.104.84.66:8031/.git/logs/refs
+403   263B   http://47.104.84.66:8031/.git/hooks/
+403   263B   http://47.104.84.66:8031/.git/refs/heads/master
+403   263B   http://47.104.84.66:8031/.git/logs/refs/heads
+403   263B   http://47.104.84.66:8031/.git/refs/
+403   263B   http://47.104.84.66:8031/.git/refs/remotes/origin
+403   263B   http://47.104.84.66:8031/.git/refs/tags
+403   263B   http://47.104.84.66:8031/.git/logs/refs/remotes/origin
+403   263B   http://47.104.84.66:8031/.git/refs/remotes/origin/master
+403   263B   http://47.104.84.66:8031/.git/hooks/pre-applypatch
+403   263B   http://47.104.84.66:8031/.git/head
+403   263B   http://47.104.84.66:8031/.git/hooks/pre-commit
+403   263B   http://47.104.84.66:8031/.git/hooks/prepare-commit-msg
+403   263B   http://47.104.84.66:8031/.git/logs/refs/remotes/origin/master
+403   263B   http://47.104.84.66:8031/.git/objects/info/packs
+403   263B   http://47.104.84.66:8031/.git/info/
+403   263B   http://47.104.84.66:8031/.git/logs/refs/remotes/origin/HEAD
+403   263B   http://47.104.84.66:8031/.git/objects/
+403   263B   http://47.104.84.66:8031/.git/HEAD
+403   263B   http://47.104.84.66:8031/.git/hooks/applypatch-msg
+403   263B   http://47.104.84.66:8031/.git/info/exclude
+403   263B   http://47.104.84.66:8031/.git/logs/
+403   263B   http://47.104.84.66:8031/.git/description
+403   263B   http://47.104.84.66:8031/.ht_wsr.txt
+403   263B   http://47.104.84.66:8031/.htaccess.sample
+403   263B   http://47.104.84.66:8031/.htaccess_orig
+403   263B   http://47.104.84.66:8031/.htaccess.save
+403   263B   http://47.104.84.66:8031/.htaccess.orig
+403   263B   http://47.104.84.66:8031/.htaccess_extra
+403   263B   http://47.104.84.66:8031/.htaccess_sc
+403   263B   http://47.104.84.66:8031/.htaccessBAK
+403   263B   http://47.104.84.66:8031/.html
+403   263B   http://47.104.84.66:8031/.htaccessOLD
+403   263B   http://47.104.84.66:8031/.htm
+403   263B   http://47.104.84.66:8031/.htaccess.bak1
+403   263B   http://47.104.84.66:8031/.htaccessOLD2
+403   263B   http://47.104.84.66:8031/.project/
+403   263B   http://47.104.84.66:8031/.project
+403   263B   http://47.104.84.66:8031/.svn/all-wcprops
+403   263B   http://47.104.84.66:8031/.svn/entries
+403   263B   http://47.104.84.66:8031/.svn/text-base/
+403   263B   http://47.104.84.66:8031/.svn
+403   263B   http://47.104.84.66:8031/.svn/
+403   263B   http://47.104.84.66:8031/.user.ini
+200    12KB  http://47.104.84.66:8031/0.htpasswd
+200    12KB  http://47.104.84.66:8031/0
+200    12KB  http://47.104.84.66:8031/0.php
+403   263B   http://47.104.84.66:8031/1.htaccess
+302     0B   http://47.104.84.66:8031/Admin    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/Admin.Applications    -> REDIRECTS TO: /admin/index/login.html
+403   263B   http://47.104.84.66:8031/LICENSE
+200     0B   http://47.104.84.66:8031/Public/
+403   263B   http://47.104.84.66:8031/README.md
+200    12KB  http://47.104.84.66:8031/\..\..\..\..\..\..\..\..\..\etc\passwd
+302     0B   http://47.104.84.66:8031/admin.    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.asp    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.cgi    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.dat    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.mdb    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.htm    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.Applications    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.ex    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.aspx    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.php3    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.py    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.old    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.rb    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.shtml    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.jsp    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.php    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.cfm    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.pl    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.mvc    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.js    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin/    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin/?/login    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.do    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.html    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.woa    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.epc    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.srf    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin/admin    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.exe    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin/admin/login    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin.passwd    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin/index    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/admin/log    -> REDIRECTS TO: /admin/index/login.html
+200     1KB  http://47.104.84.66:8031/cgi-bin/test-cgi
+302     0B   http://47.104.84.66:8031/content.Applications    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/content/    -> REDIRECTS TO: /admin/index/login.html
+302     0B   http://47.104.84.66:8031/content    -> REDIRECTS TO: /admin/index/login.html
+200    12KB  http://47.104.84.66:8031/home.php
+200    12KB  http://47.104.84.66:8031/home
+200    12KB  http://47.104.84.66:8031/home.html
+200    12KB  http://47.104.84.66:8031/home.rar
+200    12KB  http://47.104.84.66:8031/home.tar
+200    12KB  http://47.104.84.66:8031/home.Applications
+301   304B   http://47.104.84.66:8031/htdocs    -> REDIRECTS TO: http://47.104.84.66:8031/htdocs/
+200    12KB  http://47.104.84.66:8031/index.php
+200   185B   http://47.104.84.66:8031/robots.txt
+403   263B   http://47.104.84.66:8031/server-status/
+403   263B   http://47.104.84.66:8031/server-status
+403   263B   http://47.104.84.66:8031/server-info
+200   126B   http://47.104.84.66:8031/upload.php
+200   781B   http://47.104.84.66:8031/web.config

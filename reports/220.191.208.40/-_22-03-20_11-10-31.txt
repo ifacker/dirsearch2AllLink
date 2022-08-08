@@ -1,0 +1,21 @@
+# Dirsearch started Sun Mar 20 11:10:36 2022 as: dirsearch.py -u http://220.191.208.40/ -e Desktop Documents Downloads Library Movies Music Pictures Postman Public files go
+
+301   169B   http://220.191.208.40:80/Server    -> REDIRECTS TO: http://220.191.208.40/Server/
+403   555B   http://220.191.208.40:80/assets/
+200     1KB  http://220.191.208.40:80/config.js
+301   169B   http://220.191.208.40:80/css    -> REDIRECTS TO: http://220.191.208.40/css/
+200     4KB  http://220.191.208.40:80/favicon.ico
+301   169B   http://220.191.208.40:80/fonts    -> REDIRECTS TO: http://220.191.208.40/fonts/
+301   169B   http://220.191.208.40:80/images    -> REDIRECTS TO: http://220.191.208.40/images/
+301   169B   http://220.191.208.40:80/img    -> REDIRECTS TO: http://220.191.208.40/img/
+302   145B   http://220.191.208.40:80/images/c99.php    -> REDIRECTS TO: https://www.hangzhou2022.cn/
+403   555B   http://220.191.208.40:80/images/
+200     3KB  http://220.191.208.40:80/index.html
+302   145B   http://220.191.208.40:80/images/README    -> REDIRECTS TO: https://www.hangzhou2022.cn/
+302   145B   http://220.191.208.40:80/images/Sym.php    -> REDIRECTS TO: https://www.hangzhou2022.cn/
+403   555B   http://220.191.208.40:80/js/
+301   169B   http://220.191.208.40:80/js    -> REDIRECTS TO: http://220.191.208.40/js/
+403   555B   http://220.191.208.40:80/mock/
+301   169B   http://220.191.208.40:80/mobile    -> REDIRECTS TO: http://220.191.208.40/mobile/
+301   169B   http://220.191.208.40:80/service    -> REDIRECTS TO: http://220.191.208.40/service/
+200     2KB  http://220.191.208.40:80/web/

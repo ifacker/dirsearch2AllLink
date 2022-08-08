@@ -1,0 +1,7 @@
+# Dirsearch started Tue Sep 14 11:02:54 2021 as: dirsearch.py -e CHANGELOG.md CONTRIBUTORS.md Dockerfile README.md __init__.py banner.txt db default.conf dirsearch.py lib logs reports requirements.txt setup.cfg setup.py static thirdparty -u http://10.1.8.30/#/
+
+301     0B   http://10.1.8.30:80/client    -> REDIRECTS TO: /client/
+200     1KB  http://10.1.8.30:80/favicon.ico
+301   169B   http://10.1.8.30:80/media    -> REDIRECTS TO: http://10.1.8.30/media/
+403   555B   http://10.1.8.30:80/media/
+301   169B   http://10.1.8.30:80/static    -> REDIRECTS TO: http://10.1.8.30/static/

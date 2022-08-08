@@ -1,0 +1,27 @@
+# Dirsearch started Mon Aug  8 11:04:49 2022 as: dirsearch.py -u https://115.236.86.197/
+
+400     0B   https://115.236.86.197:443/\..\..\..\..\..\..\..\..\..\etc\passwd
+400     0B   https://115.236.86.197:443/a%5c.aspx
+200   370B   https://115.236.86.197:443/api/
+302     0B   https://115.236.86.197:443/api    -> REDIRECTS TO: /api/
+302     0B   https://115.236.86.197:443/docs    -> REDIRECTS TO: /docs/
+200    16KB  https://115.236.86.197:443/docs/
+200     1KB  https://115.236.86.197:443/examples/
+200   682B   https://115.236.86.197:443/examples/jsp/snp/snoop.jsp
+302     0B   https://115.236.86.197:443/examples    -> REDIRECTS TO: /examples/
+200     6KB  https://115.236.86.197:443/examples/servlets/index.html
+200   943B   https://115.236.86.197:443/examples/servlets/servlet/RequestHeaderExample
+200   658B   https://115.236.86.197:443/examples/servlets/servlet/CookieExample
+200    21KB  https://115.236.86.197:443/favicon.ico
+403     3KB  https://115.236.86.197:443/host-manager/
+403     3KB  https://115.236.86.197:443/host-manager/html
+200    11KB  https://115.236.86.197:443/index.jsp
+302     0B   https://115.236.86.197:443/manager    -> REDIRECTS TO: /manager/
+403     3KB  https://115.236.86.197:443/manager/
+403     3KB  https://115.236.86.197:443/manager/html/
+403     3KB  https://115.236.86.197:443/manager/admin.asp
+403     3KB  https://115.236.86.197:443/manager/html
+403     3KB  https://115.236.86.197:443/manager/login.asp
+403     3KB  https://115.236.86.197:443/manager/status/all
+403     3KB  https://115.236.86.197:443/manager/login
+403     3KB  https://115.236.86.197:443/manager/VERSION

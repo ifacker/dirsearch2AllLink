@@ -1,0 +1,3 @@
+# Dirsearch started Fri Jul  1 09:02:16 2022 as: dirsearch.py -u https://mydc.czbank.com/
+
+200   612B   https://mydc.czbank.com:443/index.html

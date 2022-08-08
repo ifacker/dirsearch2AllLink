@@ -1,0 +1,21 @@
+# Dirsearch started Mon Jul 25 13:31:57 2022 as: dirsearch.py -u http://shanghai.travelsky.cn -e 360tianqingRCE
+
+403   199B   http://shanghai.travelsky.cn:80/.htaccess.orig
+403   199B   http://shanghai.travelsky.cn:80/.htaccess.bak1
+403   199B   http://shanghai.travelsky.cn:80/.htaccess.sample
+403   199B   http://shanghai.travelsky.cn:80/.htaccess_extra
+403   199B   http://shanghai.travelsky.cn:80/.ht_wsr.txt
+403   199B   http://shanghai.travelsky.cn:80/.htaccess.save
+403   199B   http://shanghai.travelsky.cn:80/.htaccess_sc
+403   199B   http://shanghai.travelsky.cn:80/.htaccessOLD
+403   199B   http://shanghai.travelsky.cn:80/.htaccessBAK
+403   199B   http://shanghai.travelsky.cn:80/.htaccessOLD2
+403   199B   http://shanghai.travelsky.cn:80/.html
+403   199B   http://shanghai.travelsky.cn:80/.htm
+403   199B   http://shanghai.travelsky.cn:80/.htpasswds
+403   199B   http://shanghai.travelsky.cn:80/.httr-oauth
+403   199B   http://shanghai.travelsky.cn:80/.htpasswd_test
+403   199B   http://shanghai.travelsky.cn:80/.htaccess_orig
+200     1KB  http://shanghai.travelsky.cn:80/cgi-bin/test-cgi
+200    27KB  http://shanghai.travelsky.cn:80/cgi-bin/
+200    27KB  http://shanghai.travelsky.cn:80/publish/

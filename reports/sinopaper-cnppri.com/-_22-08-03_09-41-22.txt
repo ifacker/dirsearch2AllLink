@@ -1,0 +1,28 @@
+# Dirsearch started Wed Aug  3 09:41:27 2022 as: dirsearch.py -u http://sinopaper-cnppri.com/
+
+302     0B   http://sinopaper-cnppri.com:80/js    -> REDIRECTS TO: http://sinopaper-cnppri.com/js/
+302     0B   http://sinopaper-cnppri.com:80/META-INF    -> REDIRECTS TO: http://sinopaper-cnppri.com/META-INF/
+302     0B   http://sinopaper-cnppri.com:80/WEB-INF    -> REDIRECTS TO: http://sinopaper-cnppri.com/WEB-INF/
+400     0B   http://sinopaper-cnppri.com:80/\..\..\..\..\..\..\..\..\..\etc\passwd
+400     0B   http://sinopaper-cnppri.com:80/a%5c.aspx
+200     2KB  http://sinopaper-cnppri.com:80/admin.jsp
+302     0B   http://sinopaper-cnppri.com:80/bin    -> REDIRECTS TO: http://sinopaper-cnppri.com/bin/
+302     0B   http://sinopaper-cnppri.com:80/conf    -> REDIRECTS TO: http://sinopaper-cnppri.com/conf/
+302     0B   http://sinopaper-cnppri.com:80/conf/Catalina    -> REDIRECTS TO: http://sinopaper-cnppri.com/conf/Catalina/
+200     1KB  http://sinopaper-cnppri.com:80/conf/context.xml
+200     3KB  http://sinopaper-cnppri.com:80/conf/logging.properties
+200     1KB  http://sinopaper-cnppri.com:80/conf/tomcat-users.xml
+200     6KB  http://sinopaper-cnppri.com:80/conf/catalina.properties
+200     8KB  http://sinopaper-cnppri.com:80/conf/server.xml
+200    12KB  http://sinopaper-cnppri.com:80/conf/catalina.policy
+200   160KB  http://sinopaper-cnppri.com:80/conf/web.xml
+302     0B   http://sinopaper-cnppri.com:80/css    -> REDIRECTS TO: http://sinopaper-cnppri.com/css/
+302     0B   http://sinopaper-cnppri.com:80/editor    -> REDIRECTS TO: http://sinopaper-cnppri.com/editor/
+302     0B   http://sinopaper-cnppri.com:80/images    -> REDIRECTS TO: http://sinopaper-cnppri.com/images/
+200   300B   http://sinopaper-cnppri.com:80/index.jsp
+302     0B   http://sinopaper-cnppri.com:80/lib    -> REDIRECTS TO: http://sinopaper-cnppri.com/lib/
+302     0B   http://sinopaper-cnppri.com:80/logs    -> REDIRECTS TO: http://sinopaper-cnppri.com/logs/
+302     0B   http://sinopaper-cnppri.com:80/scripts    -> REDIRECTS TO: http://sinopaper-cnppri.com/scripts/
+302     0B   http://sinopaper-cnppri.com:80/temp    -> REDIRECTS TO: http://sinopaper-cnppri.com/temp/
+302     0B   http://sinopaper-cnppri.com:80/text    -> REDIRECTS TO: http://sinopaper-cnppri.com/text/
+403   213B   http://sinopaper-cnppri.com:80/server-info

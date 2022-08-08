@@ -1,0 +1,15 @@
+# Dirsearch started Thu Aug  4 13:58:26 2022 as: dirsearch.py -u https://www.partslink24.com.cn/
+
+301   266B   https://www.partslink24.com.cn:443/.well-known/acme-challenge    -> REDIRECTS TO: https://www.partslink24.com.cn/.well-known/acme-challenge/
+301   244B   https://www.partslink24.com.cn:443/chat    -> REDIRECTS TO: https://www.partslink24.com.cn/chat/
+200   894B   https://www.partslink24.com.cn:443/favicon.ico
+403    12KB  https://www.partslink24.com.cn:443/images/
+301   246B   https://www.partslink24.com.cn:443/images    -> REDIRECTS TO: https://www.partslink24.com.cn/images/
+301   243B   https://www.partslink24.com.cn:443/img    -> REDIRECTS TO: https://www.partslink24.com.cn/img/
+200     2KB  https://www.partslink24.com.cn:443/index.html
+200    82B   https://www.partslink24.com.cn:443/robots.txt
+403    12KB  https://www.partslink24.com.cn:443/server-status
+403    12KB  https://www.partslink24.com.cn:443/server-status/
+200    12KB  https://www.partslink24.com.cn:443/sitemap.xml
+301   244B   https://www.partslink24.com.cn:443/test    -> REDIRECTS TO: https://www.partslink24.com.cn/test/
+200    53B   https://www.partslink24.com.cn:443/test/

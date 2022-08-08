@@ -1,0 +1,61 @@
+# Dirsearch started Mon Jan 17 16:42:16 2022 as: dirsearch.py -u https://yiqwzgl.hzxh.gov.cn/#/ -e BurpSuiteLoader_v2021.5.jar burploader-old.jar burpsuite_pro_v2021.5.jar run.bat
+
+301   169B   https://yiqwzgl.hzxh.gov.cn:443/css    -> REDIRECTS TO: https://yiqwzgl.hzxh.gov.cn/css/
+200   911B   https://yiqwzgl.hzxh.gov.cn:443/favicon.ico
+403   555B   https://yiqwzgl.hzxh.gov.cn:443/file/
+301   169B   https://yiqwzgl.hzxh.gov.cn:443/file    -> REDIRECTS TO: https://yiqwzgl.hzxh.gov.cn/file/
+301   169B   https://yiqwzgl.hzxh.gov.cn:443/fonts    -> REDIRECTS TO: https://yiqwzgl.hzxh.gov.cn/fonts/
+301   169B   https://yiqwzgl.hzxh.gov.cn:443/health    -> REDIRECTS TO: https://yiqwzgl.hzxh.gov.cn/health/
+301   169B   https://yiqwzgl.hzxh.gov.cn:443/img    -> REDIRECTS TO: https://yiqwzgl.hzxh.gov.cn/img/
+200    13KB  https://yiqwzgl.hzxh.gov.cn:443/index.html
+301   169B   https://yiqwzgl.hzxh.gov.cn:443/json    -> REDIRECTS TO: https://yiqwzgl.hzxh.gov.cn/json/
+403   555B   https://yiqwzgl.hzxh.gov.cn:443/js/
+301   169B   https://yiqwzgl.hzxh.gov.cn:443/js    -> REDIRECTS TO: https://yiqwzgl.hzxh.gov.cn/js/
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test-driver
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test-build/
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test-report/
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test.BurpSuiteLoader_v2021.5.jar
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test.asp
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test.html
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test.chm
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test-result
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test.htm
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test.mdb
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test.jsp
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test.php
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test.sqlite
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test.txt
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test/
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test.aspx
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test/tmp/
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test0.php
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test/reports
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test0
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test/version_tmp/
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test1.php
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test1
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test123.php
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test5.php
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test6.php
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test8.php
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test9.php
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test_
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test_gen.caches
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test_ip.php
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/testadmin
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/testing
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test_gen
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test2.html
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/testimonials
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/testproxy.php
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/tests
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test2.php
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test2
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/tests/
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test4.php
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test3.php
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/tests/phpunit_report.xml
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/testweb
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test7.php
+200    62B   https://yiqwzgl.hzxh.gov.cn:443/test-output/
