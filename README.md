@@ -13,4 +13,7 @@ dirsearch - Web path discovery
 <img src="static/1.png">
 
 下面为修改后的截图：  
-<img src="static/2.png">
+<img src="static/2.png">  
+
+## 别犹豫了呀，简直就是 Ctrl + C/V 工程师的福音啊！！
+<img src="static/3.jpeg">
