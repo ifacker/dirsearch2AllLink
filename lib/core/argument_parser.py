@@ -409,141 +409,141 @@ timeout, wordlist location, ...) by editing the "default.conf" file. More
 information at https://github.com/maurosoria/dirsearch.""")
 
         # Mandatory arguments
-        mandatory = OptionGroup(parser, "Mandatory")
-        mandatory.add_option("-u", "--url", help="Target URL", action="store", type="string", dest="url", default=None)
-        mandatory.add_option("-l", "--url-list", help="Target URL list file", action="store", type="string", dest="url_list",
+        mandatory = OptionGroup(parser, "Mandatory【强制的】")
+        mandatory.add_option("-u", "--url", help="Target URL【目标 URL】", action="store", type="string", dest="url", default=None)
+        mandatory.add_option("-l", "--url-list", help="Target URL list file【目标 URL 的文件】", action="store", type="string", dest="url_list",
                              default=None, metavar="FILE")
-        mandatory.add_option("--stdin", help="Target URL list from STDIN", action="store_true", dest="stdin_urls")
-        mandatory.add_option("--cidr", help="Target CIDR", action="store", type="string", dest="cidr", default=None)
-        mandatory.add_option("--raw", help="Load raw HTTP request from file (use `--scheme` flag to set the scheme)", action="store",
+        mandatory.add_option("--stdin", help="Target URL list from STDIN【来自 STDIN 的目标 URL 列表】", action="store_true", dest="stdin_urls")
+        mandatory.add_option("--cidr", help="Target CIDR【目标 CIDR】", action="store", type="string", dest="cidr", default=None)
+        mandatory.add_option("--raw", help="Load raw HTTP request from file (use `--scheme` flag to set the scheme)【从文件加载原始 HTTP 请求（使用 `--scheme` 标志设置方案）】", action="store",
                              dest="raw_file", metavar="FILE")
-        mandatory.add_option("-e", "--extensions", help="Extension list separated by commas (Example: php,asp)",
+        mandatory.add_option("-e", "--extensions", help="Extension list separated by commas (Example: php,asp)【用逗号分隔的扩展名列表（例如：php,asp）】",
                              action="store", dest="extensions", default=self.default_extensions)
         mandatory.add_option("-X", "--exclude-extensions", action="store", dest="exclude_extensions", default=self.exclude_extensions,
-                             help="Exclude extension list separated by commas (Example: asp,jsp)", metavar="EXTENSIONS")
+                             help="Exclude extension list separated by commas (Example: asp,jsp)【排除以逗号分隔的扩展名列表（示例：asp,jsp）】", metavar="EXTENSIONS")
         mandatory.add_option("-f", "--force-extensions", action="store_true", dest="force_extensions", default=self.force_extensions,
-                             help="Add extensions to every wordlist entry. By default dirsearch only replaces the %EXT% keyword with extensions")
+                             help="Add extensions to every wordlist entry. By default dirsearch only replaces the %EXT% keyword with extensions【为每个单词表条目添加扩展名。默认情况下，dirsearch 仅将 %EXT% 关键字替换为扩展名】")
 
         # Dictionary Settings
-        dictionary = OptionGroup(parser, "Dictionary Settings")
+        dictionary = OptionGroup(parser, "Dictionary Settings【字典设置】")
         dictionary.add_option("-w", "--wordlists", action="store", dest="wordlist",
-                              help="Customize wordlists (separated by commas)",
+                              help="Customize wordlists (separated by commas)【自定义词表（以逗号分隔）】",
                               default=self.wordlist)
         dictionary.add_option("--prefixes", action="store", dest="prefixes", default=self.prefixes,
-                              help="Add custom prefixes to all wordlist entries (separated by commas)")
+                              help="Add custom prefixes to all wordlist entries (separated by commas)【为所有单词表条目添加自定义前缀（以逗号分隔）】")
         dictionary.add_option("--suffixes", action="store", dest="suffixes", default=self.suffixes,
-                              help="Add custom suffixes to all wordlist entries, ignore directories (separated by commas)")
+                              help="Add custom suffixes to all wordlist entries, ignore directories (separated by commas)【为所有单词表条目添加自定义后缀，忽略目录（以逗号分隔）】")
         dictionary.add_option("--only-selected", dest="only_selected", action="store_true",
-                              help="Remove paths have different extensions from selected ones via `-e` (keep entries don't have extensions)")
+                              help="Remove paths have different extensions from selected ones via `-e` (keep entries don't have extensions)【通过 `-e` 删除路径与所选路径具有不同的扩展名（保留条目没有扩展名）】")
         dictionary.add_option("--remove-extensions", dest="no_extension", action="store_true",
-                              help="Remove extensions in all paths (Example: admin.php -> admin)")
+                              help="Remove extensions in all paths (Example: admin.php -> admin)【删除所有路径中的扩展名（例如：admin.php -> admin）】")
         dictionary.add_option("-U", "--uppercase", action="store_true", dest="uppercase", default=self.uppercase,
-                              help="Uppercase wordlist")
+                              help="Uppercase wordlist【将字典大写】")
         dictionary.add_option("-L", "--lowercase", action="store_true", dest="lowercase", default=self.lowercase,
-                              help="Lowercase wordlist")
+                              help="Lowercase wordlist【将字典小写】")
         dictionary.add_option("-C", "--capital", action="store_true", dest="capitalization", default=self.capitalization,
-                              help="Capital wordlist")
+                              help="Capital wordlist【将字典首字母大写】")
 
         # Optional Settings
-        general = OptionGroup(parser, "General Settings")
-        general.add_option("-t", "--threads", help="Number of threads", action="store", type="int", dest="threads_count",
+        general = OptionGroup(parser, "General Settings【通用设置】")
+        general.add_option("-t", "--threads", help="Number of threads【线程数】", action="store", type="int", dest="threads_count",
                            default=self.threads_count, metavar="THREADS")
-        general.add_option("-r", "--recursive", help="Brute-force recursively", action="store_true", dest="recursive",
+        general.add_option("-r", "--recursive", help="Brute-force recursively【递归暴力破解】", action="store_true", dest="recursive",
                            default=self.recursive)
-        general.add_option("--deep-recursive", help="Perform recursive scan on every directory depth (Example: api/users -> api/)", action="store_true", dest="deep_recursive",
+        general.add_option("--deep-recursive", help="Perform recursive scan on every directory depth (Example: api/users -> api/)【对每个目录深度执行递归扫描（示例：api/users -> api/）】", action="store_true", dest="deep_recursive",
                            default=self.deep_recursive)
-        general.add_option("--force-recursive", help="Do recursive brute-force for every found path, not only paths end with slash", action="store_true", dest="force_recursive",
+        general.add_option("--force-recursive", help="Do recursive brute-force for every found path, not only paths end with slash【对每个找到的路径进行递归暴力破解，路径不以斜线结尾】", action="store_true", dest="force_recursive",
                            default=self.force_recursive)
-        general.add_option("-R", "--recursion-depth", help="Maximum recursion depth", action="store",
+        general.add_option("-R", "--recursion-depth", help="Maximum recursion depth【最大递归深度】", action="store",
                            type="int", dest="recursion_depth", default=self.recursion_depth, metavar="DEPTH")
-        general.add_option("--recursion-status", help="Valid status codes to perform recursive scan, support ranges (separated by commas)",
+        general.add_option("--recursion-status", help="Valid status codes to perform recursive scan, support ranges (separated by commas)【执行递归扫描的有效状态码，支持范围（以逗号分隔）】",
                            action="store", dest="recursion_status_codes", default=self.recursion_status_codes, metavar="CODES")
-        general.add_option("--subdirs", help="Scan sub-directories of the given URL[s] (separated by commas)", action="store",
+        general.add_option("--subdirs", help="Scan sub-directories of the given URL[s] (separated by commas)【扫描给定 URL[s] 的子目录（用逗号分隔）】", action="store",
                            dest="scan_subdirs", default=None, metavar="SUBDIRS")
-        general.add_option("--exclude-subdirs", help="Exclude the following subdirectories during recursive scan (separated by commas)",
+        general.add_option("--exclude-subdirs", help="Exclude the following subdirectories during recursive scan (separated by commas)【递归扫描时排除以下子目录（逗号分隔）】",
                            action="store", dest="exclude_subdirs", default=self.exclude_subdirs, metavar="SUBDIRS")
-        general.add_option("-i", "--include-status", help="Include status codes, separated by commas, support ranges (Example: 200,300-399)",
+        general.add_option("-i", "--include-status", help="Include status codes, separated by commas, support ranges (Example: 200,300-399)【包括状态代码，以逗号分隔，支持范围（示例：200,300-399）】",
                            action="store", dest="include_status_codes", default=self.include_status_codes, metavar="CODES")
-        general.add_option("-x", "--exclude-status", help="Exclude status codes, separated by commas, support ranges (Example: 301,500-599)",
+        general.add_option("-x", "--exclude-status", help="Exclude status codes, separated by commas, support ranges (Example: 301,500-599)【排除状态代码，以逗号分隔，支持范围（示例：301,500-599）】",
                            action="store", dest="exclude_status_codes", default=self.exclude_status_codes, metavar="CODES")
-        general.add_option("--exclude-sizes", help="Exclude responses by sizes, separated by commas (Example: 123B,4KB)",
+        general.add_option("--exclude-sizes", help="Exclude responses by sizes, separated by commas (Example: 123B,4KB)【按大小排除响应，以逗号分隔（示例：123B,4KB）】",
                            action="store", dest="exclude_sizes", default=self.exclude_sizes, metavar="SIZES")
-        general.add_option("--exclude-texts", help="Exclude responses by texts, separated by commas (Example: 'Not found', 'Error')",
+        general.add_option("--exclude-texts", help="Exclude responses by texts, separated by commas (Example: 'Not found', 'Error')【按文本排除响应，用逗号分隔（例如：“未找到”、“错误”）】",
                            action="store", dest="exclude_texts", default=self.exclude_texts, metavar="TEXTS")
-        general.add_option("--exclude-regexps", help="Exclude responses by regexps, separated by commas (Example: 'Not foun[a-z]{1}', '^Error$')",
+        general.add_option("--exclude-regexps", help="Exclude responses by regexps, separated by commas (Example: 'Not foun[a-z]{1}', '^Error$')【通过正则表达式排除响应，用逗号分隔（例如：'Not foun[a-z]{1}'、'^Error$'）】",
                            action="store", dest="exclude_regexps", default=self.exclude_regexps, metavar="REGEXPS")
-        general.add_option("--exclude-redirects", help="Exclude responses by redirect regexps or texts, separated by commas (Example: 'https://okta.com/*')",
+        general.add_option("--exclude-redirects", help="Exclude responses by redirect regexps or texts, separated by commas (Example: 'https://okta.com/*')【通过重定向正则表达式或文本排除响应，以逗号分隔（例如：'https://okta.com/*'）】",
                            action="store", dest="exclude_redirects", default=self.exclude_redirects, metavar="REGEXPS")
-        general.add_option("--exclude-response", help="Exclude responses by response of this page (path as input)", action="store",
+        general.add_option("--exclude-response", help="Exclude responses by response of this page (path as input)【通过此页面的响应排除响应（路径作为输入）】", action="store",
                            dest="exclude_response", default=self.exclude_response, metavar="PATH")
         general.add_option("--skip-on-status", action="store", dest="skip_on_status", default=self.skip_on_status,
-                           help="Skip target whenever hit one of these status codes, separated by commas, support ranges", metavar="CODES")
+                           help="Skip target whenever hit one of these status codes, separated by commas, support ranges【每当遇到这些状态代码之一时跳过目标，用逗号分隔，支持范围】", metavar="CODES")
         general.add_option("--minimal", action="store", dest="minimum_response_size", type="int", default=None,
-                           help="Minimal response length", metavar="LENGTH")
+                           help="Minimal response length【最小响应长度】", metavar="LENGTH")
         general.add_option("--maximal", action="store", dest="maximum_response_size", type="int", default=None,
-                           help="Maximal response length", metavar="LENGTH")
+                           help="Maximal response length【最大响应长度】", metavar="LENGTH")
         general.add_option("--max-time", action="store", dest="maxtime", type="int", default=self.maxtime,
-                           help="Maximal runtime for the scan", metavar="SECONDS")
+                           help="Maximal runtime for the scan【扫描的最大运行时间】", metavar="SECONDS")
         general.add_option("-q", "--quiet-mode", action="store_true", dest="quiet",
-                           help="Quiet mode", default=self.quiet)
+                           help="Quiet mode【静音模式】", default=self.quiet)
         general.add_option("--full-url", action="store_true", dest="full_url",
-                           help="Full URLs in the output (enabled automatically in quiet mode)", default=self.full_url)
-        general.add_option("--no-color", help="No colored output", action="store_false",
+                           help="Full URLs in the output (enabled automatically in quiet mode)【输出中的完整 URL（在安静模式下自动启用）】", default=self.full_url)
+        general.add_option("--no-color", help="No colored output【没有彩色输出】", action="store_false",
                            dest="color", default=self.color)
 
         # Request Settings
-        request = OptionGroup(parser, "Request Settings")
+        request = OptionGroup(parser, "Request Settings【请求设置】")
         request.add_option("-m", "--http-method", action="store", dest="httpmethod", type="string",
-                           default=self.httpmethod, help="HTTP method (default: GET)", metavar="METHOD")
-        request.add_option("-d", "--data", help="HTTP request data", action="store", dest="data",
+                           default=self.httpmethod, help="HTTP method (default: GET)【HTTP 方法（默认：GET）】", metavar="METHOD")
+        request.add_option("-d", "--data", help="HTTP request data【HTTP 请求数据】", action="store", dest="data",
                            type="str", default=None)
-        request.add_option("-H", "--header", help="HTTP request header, support multiple flags (Example: -H 'Referer: example.com')",
+        request.add_option("-H", "--header", help="HTTP request header, support multiple flags (Example: -H 'Referer: example.com')【HTTP 请求标头，支持多个标志（示例：-H 'Referer: example.com'）】",
                            action="append", type="string", dest="headers", default=None)
-        request.add_option("--header-list", help="File contains HTTP request headers", type="string",
+        request.add_option("--header-list", help="File contains HTTP request headers【文件包含 HTTP 请求标头】", type="string",
                            dest="header_list", default=self.header_list, metavar="FILE")
-        request.add_option("-F", "--follow-redirects", help="Follow HTTP redirects",
+        request.add_option("-F", "--follow-redirects", help="Follow HTTP redirects【遵循 HTTP 重定向】",
                            action="store_true", dest="follow_redirects", default=self.redirect)
-        request.add_option("--random-agent", help="Choose a random User-Agent for each request",
+        request.add_option("--random-agent", help="Choose a random User-Agent for each request【为每个请求选择一个随机用户代理】",
                            default=self.use_random_agents, action="store_true", dest="use_random_agents")
-        request.add_option("--auth-type", help="Authentication type (basic, digest, bearer, ntlm)",
+        request.add_option("--auth-type", help="Authentication type (basic, digest, bearer, ntlm)【身份验证类型（基本、摘要、承载、ntlm）】",
                            action="store", dest="auth_type", metavar="TYPE")
-        request.add_option("--auth", help="Authentication credential (user:password or bearer token)",
+        request.add_option("--auth", help="Authentication credential (user:password or bearer token)【身份验证凭证（用户：密码或不记名令牌）】",
                            action="store", dest="auth", metavar="CREDENTIAL")
         request.add_option("--user-agent", action="store", type="string", dest="useragent",
                            default=self.useragent)
         request.add_option("--cookie", action="store", type="string", dest="cookie", default=self.cookie)
 
         # Connection Settings
-        connection = OptionGroup(parser, "Connection Settings")
+        connection = OptionGroup(parser, "Connection Settings【连接设置】")
         connection.add_option("--timeout", action="store", dest="timeout", type="float",
-                              default=self.timeout, help="Connection timeout")
-        connection.add_option("-s", "--delay", help="Delay between requests", action="store", dest="delay",
+                              default=self.timeout, help="Connection timeout【连接超时时间】")
+        connection.add_option("-s", "--delay", help="Delay between requests【请求之间的延迟】", action="store", dest="delay",
                               type="float", default=self.delay)
         connection.add_option("--proxy", action="store", dest="proxy", type="string", default=self.proxy,
-                              help="Proxy URL, support HTTP and SOCKS proxies (Example: localhost:8080, socks5://localhost:8088)", metavar="PROXY")
+                              help="Proxy URL, support HTTP and SOCKS proxies (Example: localhost:8080, socks5://localhost:8088)【代理 URL，支持 HTTP 和 SOCKS 代理（例如：localhost:8080, socks5://localhost:8088）】", metavar="PROXY")
         connection.add_option("--proxy-list", action="store", dest="proxy_list", type="string",
-                              default=self.proxylist, help="File contains proxy servers", metavar="FILE")
+                              default=self.proxylist, help="File contains proxy servers【包含代理服务器的文件】", metavar="FILE")
         connection.add_option("--replay-proxy", action="store", dest="replay_proxy", type="string", default=self.replay_proxy,
-                              help="Proxy to replay with found paths", metavar="PROXY")
-        connection.add_option("--scheme", help="Default scheme (for raw request or if there is no scheme in the URL)", action="store",
+                              help="Proxy to replay with found paths【使用找到的路径重播的代理】", metavar="PROXY")
+        connection.add_option("--scheme", help="Default scheme (for raw request or if there is no scheme in the URL)【默认方案（用于原始请求或 URL 中没有方案）】", action="store",
                               default=self.scheme, dest="scheme", metavar="SCHEME")
-        connection.add_option("--max-rate", help="Max requests per second", action="store", dest="maxrate",
+        connection.add_option("--max-rate", help="Max requests per second【每秒最大请求数】", action="store", dest="maxrate",
                               type="int", default=self.maxrate, metavar="RATE")
-        connection.add_option("--retries", help="Number of retries for failed requests", action="store",
+        connection.add_option("--retries", help="Number of retries for failed requests【失败请求的重试次数】", action="store",
                               dest="max_retries", type="int", default=self.max_retries, metavar="RETRIES")
         connection.add_option("-b", "--request-by-hostname",
-                              help="By default dirsearch requests by IP for speed. This will force dirsearch to request by hostname",
+                              help="By default dirsearch requests by IP for speed. This will force dirsearch to request by hostname【默认情况下，通过 IP 进行 dirsearch 请求以提高速度。这将强制 dirsearch 按主机名请求】",
                               action="store_true", dest="request_by_hostname", default=self.request_by_hostname)
         connection.add_option("--ip", action="store", dest="ip", default=None,
-                              help="Server IP address")
+                              help="Server IP address【服务器的IP地址】")
         connection.add_option("--exit-on-error", action="store_true", dest="exit_on_error", default=self.exit_on_error,
-                              help="Exit whenever an error occurs")
+                              help="Exit whenever an error occurs【发生错误时退出】")
 
         # Report Settings
-        reports = OptionGroup(parser, "Reports")
-        reports.add_option("-o", "--output", action="store", dest="output_file", default=None, metavar="FILE", help="Output file")
+        reports = OptionGroup(parser, "Reports【报告】")
+        reports.add_option("-o", "--output", action="store", dest="output_file", default=None, metavar="FILE", help="Output file【输出文件】")
         reports.add_option("--format", action="store", dest="output_format", default=self.output_format, metavar="FORMAT",
-                           help="Report format (Available: simple, plain, json, xml, md, csv, html)")
+                           help="Report format (Available: simple, plain, json, xml, md, csv, html)【报告格式（可用：simple、plain、json、xml、md、csv、html）】")
 
         parser.add_option_group(mandatory)
         parser.add_option_group(dictionary)
