@@ -1,3 +1,0 @@
-# Dirsearch started Wed Aug  3 19:10:06 2022 as: dirsearch.py -u http://oa.sh.travelsky.cn/
-
-403   199B   http://oa.sh.travelsky.cn:80/simple

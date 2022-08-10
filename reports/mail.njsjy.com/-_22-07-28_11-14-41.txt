@@ -1,8 +1,0 @@
-# Dirsearch started Thu Jul 28 11:14:43 2022 as: dirsearch.py -u http://mail.njsjy.com/
-
-403   345B   http://mail.njsjy.com:80/html.bak
-403   345B   http://mail.njsjy.com:80/js.bak
-403   345B   http://mail.njsjy.com:80/jsp.bak
-403   345B   http://mail.njsjy.com:80/php.bak
-403   345B   http://mail.njsjy.com:80/aspx.bak
-200     1B   http://mail.njsjy.com:80/admin/includes/configure.php~

@@ -1,4 +1,0 @@
-# Dirsearch started Wed Aug  3 10:34:05 2022 as: dirsearch.py -u http://sinopaper-cnppri.com:8080/editor/plugins/template/html/
-
-400     0B   http://sinopaper-cnppri.com:8080/editor/plugins/template/html/\..\..\..\..\..\..\..\..\..\etc\passwd
-400     0B   http://sinopaper-cnppri.com:8080/editor/plugins/template/html/a%5c.aspx

@@ -1,5 +1,0 @@
-# Dirsearch started Fri Aug  5 14:23:58 2022 as: dirsearch.py -u https://vio.travelskygz.cn/
-
-400     0B   https://vio.travelskygz.cn:443/\..\..\..\..\..\..\..\..\..\etc\passwd
-400     0B   https://vio.travelskygz.cn:443/a%5c.aspx
-302     0B   https://vio.travelskygz.cn:443/index.jsp    -> REDIRECTS TO: ./dipWeb/common/login.jsp

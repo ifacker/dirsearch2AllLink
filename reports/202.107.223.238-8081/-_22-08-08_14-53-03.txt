@@ -1,3 +1,0 @@
-# Dirsearch started Mon Aug  8 14:53:04 2022 as: dirsearch.py -u http://202.107.223.238:8081/
-
-403   312B   http://202.107.223.238:8081/%2e%2e//google.com

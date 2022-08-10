@@ -1,9 +1,0 @@
-# Dirsearch started Thu Jul 28 09:27:48 2022 as: dirsearch.py -u http://oa.njsjy.com:9083/ -e 01.png README.md README.zh-cn.md docker-compose.yml
-
-403   312B   http://oa.njsjy.com:9083/%2e%2e//google.com
-403     2KB  http://oa.njsjy.com:9083/Trace.axd
-403   312B   http://oa.njsjy.com:9083/\..\..\..\..\..\..\..\..\..\etc\passwd
-403     1KB  http://oa.njsjy.com:9083/aspnet_client/
-301   162B   http://oa.njsjy.com:9083/aspnet_client    -> REDIRECTS TO: http://oa.njsjy.com:9083/aspnet_client/
-400     3KB  http://oa.njsjy.com:9083/jolokia/exec/com.sun.management:type=DiagnosticCommand/jfrStart/filename=!/tmp!/foo
-400     3KB  http://oa.njsjy.com:9083/jolokia/read/java.lang:type=*/HeapMemoryUsage

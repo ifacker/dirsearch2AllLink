@@ -1,7 +1,0 @@
-# Dirsearch started Wed Aug  3 10:35:35 2022 as: dirsearch.py -u http://sinopaper-cnppri.com:8080/editor/themes/
-
-400     0B   http://sinopaper-cnppri.com:8080/editor/themes/\..\..\..\..\..\..\..\..\..\etc\passwd
-400     0B   http://sinopaper-cnppri.com:8080/editor/themes/a%5c.aspx
-302     0B   http://sinopaper-cnppri.com:8080/editor/themes/common    -> REDIRECTS TO: http://sinopaper-cnppri.com:8080/editor/themes/common/
-302     0B   http://sinopaper-cnppri.com:8080/editor/themes/default    -> REDIRECTS TO: http://sinopaper-cnppri.com:8080/editor/themes/default/
-302     0B   http://sinopaper-cnppri.com:8080/editor/themes/simple    -> REDIRECTS TO: http://sinopaper-cnppri.com:8080/editor/themes/simple/

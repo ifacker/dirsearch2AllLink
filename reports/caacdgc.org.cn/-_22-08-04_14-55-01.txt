@@ -1,3 +1,0 @@
-# Dirsearch started Thu Aug  4 14:55:02 2022 as: dirsearch.py -u http://caacdgc.org.cn/
-
-301   148B   http://caacdgc.org.cn:80/js    -> REDIRECTS TO: http://caacdgc.org.cn/js/

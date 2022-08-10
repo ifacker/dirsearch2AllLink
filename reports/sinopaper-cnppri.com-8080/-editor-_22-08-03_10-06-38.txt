@@ -1,9 +1,0 @@
-# Dirsearch started Wed Aug  3 10:06:39 2022 as: dirsearch.py -u http://sinopaper-cnppri.com:8080/editor/
-
-200   300B   http://sinopaper-cnppri.com:8080/editor/..;/
-400     0B   http://sinopaper-cnppri.com:8080/editor/\..\..\..\..\..\..\..\..\..\etc\passwd
-400     0B   http://sinopaper-cnppri.com:8080/editor/a%5c.aspx
-302     0B   http://sinopaper-cnppri.com:8080/editor/lang    -> REDIRECTS TO: http://sinopaper-cnppri.com:8080/editor/lang/
-200    26KB  http://sinopaper-cnppri.com:8080/editor/license.txt
-302     0B   http://sinopaper-cnppri.com:8080/editor/plugins    -> REDIRECTS TO: http://sinopaper-cnppri.com:8080/editor/plugins/
-302     0B   http://sinopaper-cnppri.com:8080/editor/themes    -> REDIRECTS TO: http://sinopaper-cnppri.com:8080/editor/themes/

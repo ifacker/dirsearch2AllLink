@@ -1,3 +1,0 @@
-# Dirsearch started Mon Aug  8 14:14:42 2022 as: /Users/jiangmengwei/files/tools/b-路径扫描/newDirsearch/dirsearch/dirsearch.py -u https://www.baidu.com
-
-301   232B   https://www.baidu.com:443/js    -> REDIRECTS TO: http://www.baidu.com/js/

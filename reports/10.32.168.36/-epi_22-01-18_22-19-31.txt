@@ -1,8 +1,0 @@
-# Dirsearch started Tue Jan 18 22:19:58 2022 as: dirsearch.py -u http://10.32.168.36/epi -e BurpSuiteLoader_v2021.5.jar burploader-old.jar burpsuite_pro_v2021.5.jar run.bat
-
-200    28KB  http://10.32.168.36:80/epi/favicon.ico
-301   169B   http://10.32.168.36:80/epi/icons    -> REDIRECTS TO: http://10.32.168.36/epi/icons/
-301   169B   http://10.32.168.36:80/epi/manager    -> REDIRECTS TO: http://10.32.168.36/epi/manager/
-301   169B   http://10.32.168.36:80/epi/static    -> REDIRECTS TO: http://10.32.168.36/epi/static/
-200   304KB  http://10.32.168.36:80/epi/swagger.json
-301   169B   http://10.32.168.36:80/epi/user    -> REDIRECTS TO: http://10.32.168.36/epi/user/

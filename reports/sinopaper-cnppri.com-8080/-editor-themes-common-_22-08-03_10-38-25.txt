@@ -1,4 +1,0 @@
-# Dirsearch started Wed Aug  3 10:38:34 2022 as: dirsearch.py -u http://sinopaper-cnppri.com:8080/editor/themes/common/
-
-400     0B   http://sinopaper-cnppri.com:8080/editor/themes/common/\..\..\..\..\..\..\..\..\..\etc\passwd
-400     0B   http://sinopaper-cnppri.com:8080/editor/themes/common/a%5c.aspx

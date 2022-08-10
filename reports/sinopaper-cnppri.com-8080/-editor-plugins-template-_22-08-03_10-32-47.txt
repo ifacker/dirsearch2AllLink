@@ -1,5 +1,0 @@
-# Dirsearch started Wed Aug  3 10:32:48 2022 as: dirsearch.py -u http://sinopaper-cnppri.com:8080/editor/plugins/template/
-
-302     0B   http://sinopaper-cnppri.com:8080/editor/plugins/template/html    -> REDIRECTS TO: http://sinopaper-cnppri.com:8080/editor/plugins/template/html/
-400     0B   http://sinopaper-cnppri.com:8080/editor/plugins/template/\..\..\..\..\..\..\..\..\..\etc\passwd
-400     0B   http://sinopaper-cnppri.com:8080/editor/plugins/template/a%5c.aspx
